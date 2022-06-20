@@ -1,0 +1,147 @@
+.navbar {
+  background-color: black;
+}
+.navbar .nav-item {
+  padding-left: 1em !important;
+}
+.navbar .nav-link {
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.carousel-item {
+  height: 450px;
+}
+.carousel-img-1 {
+  background-size: cover;
+  background: url("./img/image1.jpeg");
+  background-position: center;
+}
+.carousel-img-2 {
+  background-size: cover;
+  background: url("./img/image2.jpeg");
+  background-position: center;
+}
+.carousel-img-3 {
+  background-size: cover;
+  background: url("./img/image3.jpeg");
+  background-position: center;
+}
+#getstarted {
+  position: relative;
+  background: url("./img/bg1.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+
+.dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+#homevideo {
+  position: relative;
+  background: url("./img/people.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+.dark-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+#homevideo .fa-solid {
+  color: #ff0000;
+  font-size: 3em;
+}
+#gallery img {
+  min-height: 250px;
+}
+#footer {
+  background: rgba(0, 0, 0);
+}
+#about-us {
+  background: url("./img/about.jpg");
+  background-size: cover;
+  min-height: 200px;
+  background-attachment: fixed;
+}
+#about-body img {
+  height: 370px;
+  width: 370px;
+}
+
+#icon-boxes .fa-solid {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+#icon-boxes .fa-brands {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+#services {
+  background: url("./img/service.jpg");
+  background-size: cover;
+  min-height: 200px;
+  background-attachment: fixed;
+}
+#blogs {
+  background: url("./img/blog.jpg");
+  background-size: cover;
+  min-height: 200px;
+  background-attachment: fixed;
+}
+#contact {
+  background: url("./img/contact0.jpg");
+  background-size: cover;
+  min-height: 200px;
+  background-attachment: fixed;
+}
+
+@media (max-width: 767px) {
+  #getstarted {
+    min-height: 300px;
+  }
+  #gallery img {
+    padding-top: 20px;
+  }
+  #about-body img {
+    height: 350px;
+    width: 370px;
+  }
+  #icon-boxes .col-md-4 {
+    padding: 8px;
+  }
+  #prices .col-md-4 {
+    padding-top: 20px;
+  }
+}
+#testimonial .slick-prev::before {
+  color: #000;
+}
+#testimonial .slick-next::before {
+  color: #000;
+}
+@media (max-widht: 480px) {
+  #getstarted {
+    min-height: 350px;
+  }
+}
+
+@media (max-widht: 380px) {
+  #getstarted {
+    min-height: 400px;
+  }
+  #showcase {
+    padding-top: 50px;
+  }
+}
